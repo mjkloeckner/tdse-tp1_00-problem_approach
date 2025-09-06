@@ -1,0 +1,66 @@
+# TP 01-00 Problem Approach
+
+Padron
+
+## Eventos y Acciones del modelo Sensor (un solo botón)
+
+### Estados
+
+ST_BTN_HIGH
+ST_BTN_LOW
+ST_BTN_FALLING
+ST_BTN_RISING
+
+### Eventos
+
+EV_BTN_UP
+EV_BTN_DOWN
+
+### Señales
+
+EV_SYS_BTN_DOWN
+
+### Acciones
+
+start_timer_debounce
+decrement_timer_debounce
+raise_down_signal
+raise_up_signal
+
+## Eventos y Acciones del modelo System (un solo sistema)
+
+### Estados
+
+ST_SYS_LOOP_IN
+ST_SYS_LOOP_OUT
+ST_SYS_IR_PASSING
+ST_SYS_BTN_PRESSED
+ST_SYS_DELAY
+
+### Eventos
+
+EV_SYS_CAR_IN
+EV_SYS_CAR_OUT
+EV_SYS_CAR_PASSING
+
+### Acciones
+
+raise_barrier
+lower_barrier
+
+## Eventos y Acciones del modelo Actuator (un solo led)
+
+### Estados
+
+ST_ACT_OPEN
+ST_ACT_CLOSED
+
+### Eventos
+
+EV_ACT_RAISE
+EV_ACT_LOWER
+
+### Acciones
+
+raise_barrier
+lower_barrier
