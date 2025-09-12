@@ -98,6 +98,7 @@ todos los estados de los sensores y actuadores.
 * `EV_SYS_LOOP_CAR_OUT`: ocurre cuando sale un auto del sensor
 * `EV_SYS_IR_CAR_PASSING`: el auto esta atravesando la barrera
 * `EV_SYS_DELAY_TIMEOUT`: cuando el tiempo de espera termina
+* `EV_SYS_BTN_PRESSED`: ocurre cuando el botón ha sido presionado
 
 ### Señales
 
