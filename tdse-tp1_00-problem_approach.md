@@ -109,8 +109,8 @@ todos los estados de los sensores y actuadores.
 
 * `raise_barrier`: se notifica al modulo actuador que abra la barrera
 * `lower_barrier`: se notifica al modulo actuador que cierre la barrera
-* `start_delay`: se iniciar un timer con un delay
-* `check_delay`: se verifica el estado del timer del delay
+* `start_delay`: se inicia un timer con un tiempo determinado y envía el evento
+  `EV_SYS_DELAY_TIMEOUT` cuando finaliza
 
 ## Eventos y Acciones del modelo Actuator
 
